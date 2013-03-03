@@ -60,6 +60,7 @@ public class LiveReloadBroadcaster
             throw new DirectoryNotFoundException("Could not find " + _path);
         }
 
+        _fileExtensions = extensions;
         _fileSystemWatcher = new FileSystemWatcher(_path);
         _fileSystemWatcher.IncludeSubdirectories = true;
         _fileSystemWatcher.Changed += FileSystemChanged;
