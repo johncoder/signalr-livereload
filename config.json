@@ -1,0 +1,10 @@
+{
+  "Server": "http://localhost:50000",
+  "Path": "C:\\dev",
+  "Extensions": [
+    ".cshtml",
+    ".css",
+    ".js",
+    ".html"
+  ]
+}
